@@ -19,9 +19,9 @@ SIEM Diagram: <br/>
 <img src="https://i.ibb.co/jRxC5Ns/Image0.png" height="50%" width="50%" alt="Azure Sentinel SIEM"/>
 <br />
 <br />
-Create a virtual machine: <br/>
+First, I captured some network traffic using Wireshark. I created a pcap file. This file consisted of all network traffic going to and from my laptop. To initialise the capture, I selected an interface that the traffic is going through. <br/>
 <br />
-<img src="https://i.ibb.co/8m9Fq5m/Image1.png" height="50%" width="50%" alt="Azure Sentinel SIEM"/>
+<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*65e08_k0dr3H-FkWCAn8Vw.png" height="50%" width="50%" alt="NetworkTracker"/>
 <br />
 <br />
 Create inbound security rules to allow all traffic into the virtual machine:  <br/>
