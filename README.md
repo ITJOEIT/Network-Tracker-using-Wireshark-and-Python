@@ -27,6 +27,7 @@ After capturing packets, I exported them in pcap format . <br/>
 <br />
 <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*mcmjDxqGX03hDW-QA2-eJg.png" height="50%" width="50%" alt="Network Tracker"/>
 <br />
+  <br />
 Next was to implement code. A variable is declared with the GeoLiteCity database. The main method will open the captured data along with creating the header and footer of the KML file, which is the output file that will be uploaded to Google Maps. Next I added a method that looped over the captured network data and extracted the IP’s. The application will loop over our pcap data and extract source and destination IP adresses of each captured network packet. The IP addresses can’t be used alone as input to Google Maps, the code needs to attach a Geo location.  <br/>
 <br />
 <img src="https://i.ibb.co/Fnwwjd1/Image3.png" height="50%" width="50%" alt="Network Tracker"/>
