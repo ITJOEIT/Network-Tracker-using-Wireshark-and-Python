@@ -23,13 +23,22 @@ First, I captured some network traffic using Wireshark. I created a pcap file. T
 <br />
 <img src="https://i.ibb.co/FDpRYNQ/Image1.png" height="50%" width="50%" alt="Network Tracker"/>
 <br />
+After capturing packets, I exported them in pcap format . <br/>
 <br />
-Create inbound security rules to allow all traffic into the virtual machine:  <br/>
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*mcmjDxqGX03hDW-QA2-eJg.png" height="50%" width="50%" alt="Network Tracker"/>
 <br />
-
-
-
- <br />
+Next was to implement code. A variable is declared with the GeoLiteCity database. The main method will open the captured data along with creating the header and footer of the KML file, which is the output file that will be uploaded to Google Maps. Next I added a method that looped over the captured network data and extracted the IP’s. The application will loop over our pcap data and extract source and destination IP adresses of each captured network packet. The IP addresses can’t be used alone as input to Google Maps, the code needs to attach a Geo location.  <br/>
+<br />
+<img src="https://i.ibb.co/Fnwwjd1/Image3.png" height="50%" width="50%" alt="Network Tracker"/>
+<br />
+After the KML file is created from Python, we create a new map at www.google.com/mymaps/. A new layer is imported with the KML file previously created. <br/>
+<br />
+<img src="https://i.ibb.co/TKzTpN8/Image4.png" height="50%" width="50%" alt="Network Tracker"/>
+<br />
+Once the file is uploaded, the network traffic from the captured data will be dislayed on the map.<br/>
+<br />
+<img src="https://i.ibb.co/CPdPFHS/Image5.png" height="50%" width="50%" alt="Network Tracker"/>
+<br />
   <br />
  Thank you for reading this project.
 </p>
