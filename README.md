@@ -21,9 +21,9 @@ Network Tracker: <br/>
 <br />
 First, I captured some network traffic using Wireshark. I created a pcap file. This file consisted of all network traffic going to and from my laptop. To initialise the capture, I selected an interface that the traffic is going through. <br/>
 <br />
-<img src="https://i.ibb.co/FDpRYNQ/Image1.png" height="50%" width="50%" alt="Network Tracker"/>
-<br />
-After capturing packets, I exported them in pcap format . <br/>
+<img src="https://i.ibb.co/bWmf5dV/Image1.png" height="50%" width="50%" alt="Network Tracker"/>
+<p align="center">
+After capturing some packets in Wireshark, I exported them in pcap format . <br/>
 <br />
 <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*mcmjDxqGX03hDW-QA2-eJg.png" height="50%" width="50%" alt="Network Tracker"/>
 <br />
@@ -32,9 +32,11 @@ Next was to implement code. A variable is declared with the GeoLiteCity database
 <br />
 <img src="https://i.ibb.co/Fnwwjd1/Image3.png" height="50%" width="50%" alt="Network Tracker"/>
 <br />
+<br />
 After the KML file is created from Python, we create a new map at www.google.com/mymaps/. A new layer is imported with the KML file previously created. <br/>
 <br />
 <img src="https://i.ibb.co/TKzTpN8/Image4.png" height="50%" width="50%" alt="Network Tracker"/>
+<br />
 <br />
 Once the file is uploaded, the network traffic from the captured data will be dislayed on the map.<br/>
 <br />
