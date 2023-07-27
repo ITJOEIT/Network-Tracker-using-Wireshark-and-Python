@@ -23,7 +23,7 @@ First, I captured some network traffic using Wireshark. I created a pcap file. T
 <br />
 <img src="https://i.ibb.co/bWmf5dV/Image1.png" height="50%" width="50%" alt="Network Tracker"/>
 <p align="center">
-After capturing some packets in Wireshark, I exported them in pcap format . <br/>
+After capturing some packets in Wireshark, I exported them in pcap format. <br/>
 <br />
 <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*mcmjDxqGX03hDW-QA2-eJg.png" height="50%" width="50%" alt="Network Tracker"/>
 <br />
@@ -38,7 +38,7 @@ After the KML file is created from Python, we create a new map at www.google.com
 <img src="https://i.ibb.co/TKzTpN8/Image4.png" height="50%" width="50%" alt="Network Tracker"/>
 <br />
 <br />
-Once the file is uploaded, the network traffic from the captured data will be dislayed on the map.<br/>
+Once the file is uploaded, the network traffic from the captured data will be displayed on the map.<br/>
 <br />
 <img src="https://i.ibb.co/CPdPFHS/Image5.png" height="50%" width="50%" alt="Network Tracker"/>
 <br />
